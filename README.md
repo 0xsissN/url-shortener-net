@@ -96,15 +96,11 @@ url-shortener-net/
   Program.cs     Application configuration
 ```
 
-## Current limitations and next steps
+## Current limitations
 
-This is an initial learning version. Planned improvements include:
+This is an initial learning version.
 
-- Validate that destinations are absolute HTTP or HTTPS URLs.
-- Return `404 Not Found` for unknown codes; currently they raise an exception.
-- Add a unique database index for codes and collision handling.
 - Configure the public base URL; generated links currently use `https://localhost:7180`.
 - Add EF Core migrations for database setup.
 - Store timestamps in UTC without a fixed timezone adjustment.
-- Add integration tests for link creation and redirection.
 

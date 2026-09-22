@@ -1,0 +1,41 @@
+# .NET build and publish output
+**/[Bb]in/
+**/[Oo]bj/
+**/publish/
+artifacts/
+
+# Visual Studio and user-specific IDE settings
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Local configuration and credentials
+url-shortener-net/appsettings.json
+url-shortener-net/appsettings.Development.json
+**/appsettings.Local.json
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.publishsettings
+
+# Test results and coverage
+TestResults/
+**/TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
